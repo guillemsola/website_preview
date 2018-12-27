@@ -1,6 +1,6 @@
-# Screenshots
+# Website screenshot
 
-Uses puppeteer to make screenshots from urls.
+Uses puppeteer to make screenshots from urls simulating devices.
 
 ## Usage
 
