@@ -1,0 +1,26 @@
+{
+  "name": "mobilerenderer",
+  "version": "1.0.0",
+  "description": "Render multiple websites as in devices",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "mobile",
+    "web",
+    "render"
+  ],
+  "author": "guillemsola",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-async-handler": "^1.1.4",
+    "puppeteer": "^1.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
