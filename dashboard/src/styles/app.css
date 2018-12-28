@@ -1,0 +1,13 @@
+.mobile {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.screenshot {
+    position: absolute;
+    left: 88px;
+    top: 163px;
+    z-index: 0;
+}
