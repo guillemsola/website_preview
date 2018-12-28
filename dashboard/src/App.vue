@@ -34,19 +34,40 @@
           <input type="text" class="form-control" aria-label="Website URL" aria-describedby="inputGroup-sizing-default" :value="websiteURL" @change="refreshUrl" />
           </div>
         </div>
+
         <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <div class="card mt-2">
-              <div class="card-header card-outline-success">
-                <span>iPhone 6</span>
-              </div>
+          <div class="col">
+            <div class="card text-white">
+              <h3 class="card-header">iPhone 6</h3>
               <div class="card-body">
-                <img class="mobile" src="./assets/IPhone6_silver_frontface.png" />
-                <img class="screenshot" :src="encodedURL" width="363">
+                <img class="screenshot img-fluid" style="width:100%" :src="encodedURL" >
+                <!-- <img class="mobile img-fluid" src="./assets/IPhone6_silver_frontface.png" /> -->
+              </div>
+            </div>
+          </div>
+        <!-- </div> -->
+
+        <div class="col">
+            <div class="card text-white mb-3">
+              <h3 class="card-header">iPhone 6</h3>
+              <div class="card-body">
+                <img class="screenshot img-fluid" style="width:100%" :src="encodedURL" >
+              </div>
+            </div>
+          </div>
+
+        <!-- <div class="row"> -->
+          <div class="col">
+            <div class="card text-white mb-3">
+              <h3 class="card-header">iPhone 6</h3>
+              <div class="card-body">
+                <img class="screenshot img-fluid" style="width:100%" :src="encodedURL" >
+                <!-- <img class="mobile" src="./assets/IPhone6_silver_frontface.png" /> -->
               </div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
 

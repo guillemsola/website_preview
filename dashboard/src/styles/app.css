@@ -1,13 +1,12 @@
 .mobile {
     position: relative;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
+    left: -391px;
+}
+
+/* .screenshot:hover {
+    transform: scale(1.5);
+    z-index: 1000;
 }
 
 .screenshot {
-    position: absolute;
-    left: 88px;
-    top: 163px;
-    z-index: 0;
-}
+} */
