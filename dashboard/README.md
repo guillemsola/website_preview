@@ -28,3 +28,12 @@ wiki hole 361*636 - 0.5676100628930818
 ## Style
 
 https://bootswatch.com/slate/
+
+## TODO
+
+- Add list of devices to render in menu so that can be included in the dashboard
+- Add selector to change the columns shown in screen
+- Explore option to create a chrome extension
+- Add modal to view images in full screen with option to download as in https://codepen.io/peterbenoit/pen/XzVQZw
+- Refactor image to be a component
+- Add spinner when images are being loaded
