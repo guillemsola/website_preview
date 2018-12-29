@@ -49,15 +49,11 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-4" v-for="device in devices">
-          <div class="card text-white">
-            <h3 class="card-header">{{ device.name }}</h3>
-            <div class="card-body">
-              <img class="screenshot img-fluid" style="width:100%" :src="encodedURL(device.name)" >
-              <!-- <img class="mobile img-fluid" src="./assets/IPhone6_silver_frontface.png" /> -->
-            </div>
-          </div>
-        </div>
+        <screenshot
+          v-for="device in devices" 
+          v-bind:key="device.name" 
+          v-bind:screenshot="device"
+        ></screenshot>
       </div>
     </div>
 
@@ -66,8 +62,11 @@
 </template>
 
 <script>
+import Screenshot from './components/Screenshot.vue'
+
 export default {
   name: 'app',
+  components: { Screenshot },
   data () {
     return {
       websiteURL: 'https://www.google.com',
@@ -93,10 +92,7 @@ export default {
       console.log(this.websiteURL);
       this.websiteURL = e.target.value
     },
-    encodedURL: function (device) {
-      const mode = this.isLandscape ? device + ' landscape' : device;
-      return 'http://localhost:3000/api/screenshot?url=' + encodeURIComponent(this.websiteURL) + '&device=' + encodeURIComponent(mode);
-    }
+
   },
 }
 </script>
