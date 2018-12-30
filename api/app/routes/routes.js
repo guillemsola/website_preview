@@ -13,6 +13,7 @@ module.exports = function (app) {
             'Content-Type': 'image/jpeg',
             'Content-Length': image.length
         });
-        res.end(new Buffer.from(image));
+        const resImage = new Buffer.from(image);
+        res.end(resImage);
     }));
 };

@@ -1,5 +1,5 @@
 {
-  "name": "mobilerenderer",
+  "name": "websiterenderer",
   "version": "1.0.0",
   "description": "Render multiple websites as in devices",
   "main": "server.js",
