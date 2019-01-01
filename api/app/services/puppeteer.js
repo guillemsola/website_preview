@@ -4,13 +4,13 @@ const devices = require('puppeteer/DeviceDescriptors');
 const options = {
     ignoreHTTPSErrors: true,
     dumpio: true,
-    headless: true
+    headless: true    
 };
 
 screenshot = async function(url, device) {
     // (async () => {
         var t = process.hrtime();
-        const browser = await puppeteer.launch(options);
+        const browser = await puppeteer.launch(options, {args: ['--no-sandbox', '--disable-setuid-sandbox']});
         const page = await browser.newPage();
         process.on("unhandledRejection", (reason, p) => {
             console.error("Unhandled Rejection at: Promise", p, "reason:", reason);
