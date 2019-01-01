@@ -1,0 +1,6 @@
+.vscode
+.git
+*/node_modules
+*/npm-debug.log
+*/.vscode
+dashboard/dist
