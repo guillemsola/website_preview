@@ -22,19 +22,18 @@ screenshot = async function(url, device) {
         // page.setViewport({ width: 1366, height: 768 })
         await page.emulate(devices[device])
     
-        await page.goto(url, {waitUntil: 'networkidle2'});
-        // await page.goto(url, {timeout : 60000});
+        await page.goto(url, {waitUntil: 'networkidle2', timeout : 120000});
         
         // Some pages have JS that is activated while navigating, force it
         // await autoScroll(page);
         
         // var image = await page.screenshot({fullPage: true });
-        var image = await page.screenshot();
+        const image = await page.screenshot();
     
         await browser.close();
     
         t = process.hrtime(t);
-        console.log('benchmark took %d seconds and %d nanoseconds', t[0], t[1]);
+        console.log('benchmark took %d seconds and %d nanoseconds for %d bytes', t[0], t[1], image.length);
 
         return image;
     // })();

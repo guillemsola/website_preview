@@ -8,12 +8,10 @@ module.exports = function (app) {
         var url = req.query.url || 'https://www.google.com';
         console.log('Navigating to %s for device %s', url, device);
         const image = await screenshot(url, device);
-        // console.log(image.length);
         res.writeHead(200, {
             'Content-Type': 'image/jpeg',
             'Content-Length': image.length
         });
-        const resImage = new Buffer.from(image);
-        res.end(resImage);
+        return res.end(image, 'binary')
     }));
 };
