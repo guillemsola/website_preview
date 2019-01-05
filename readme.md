@@ -1,4 +1,4 @@
-# Website Dashboards
+# Website Preview Dashboard
 
 This project will easily display how your website is seen on different devices. Either in portrait or landscape mode.
 
