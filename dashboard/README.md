@@ -1,6 +1,6 @@
-# vue-test
+# Website Dashboard
 
-> A project using bootstrap Vue.js
+Bootstrap Vue.js screenshot grid display.
 
 ## Build Setup
 
@@ -15,17 +15,9 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For detailed explanation on how things work, review the [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-## Mobile screenshots
-
-### Iphone 6
-750*1334 - 0.5622188905547226
-wiki frame 410*835
-wiki hole 361*636 - 0.5676100628930818
-0,4813*0,76167
-
-## Style
+## Used style
 
 https://bootswatch.com/slate/
 
