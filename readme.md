@@ -25,9 +25,11 @@ To make things even easier it can be run in a Docker container. The dockerfile b
 
 `docker build -t guillemsola/website-renderer .`
 
-## Technologies
+## Technology Stack
 
-<img src="https://developers.google.com/web/tools/images/puppeteer.png" alt="Puppeteer" width="75" style="display-inline"/>
-<img src="https://vuejs.org/images/logo.png" alt="Vue.js" width="110" style="display-inline"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Boostrap_logo.svg" alt="Bootstrap" width="105" style="display-inline"/>
-<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" alt="Nodejs" width="180"  style="display-inline"/>
+<p float="left">
+<img src="https://developers.google.com/web/tools/images/puppeteer.png" alt="Puppeteer" width="75" hspace="10"/>
+<img src="https://vuejs.org/images/logo.png" alt="Vue.js" width="110" hspace="10"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Boostrap_logo.svg" alt="Bootstrap" width="105" hspace="10"/>
+<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" alt="Nodejs" width="180"  hspace="10"/>
+</p>
