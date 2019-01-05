@@ -1,6 +1,6 @@
 # Website Preview Dashboard
 
-This project will easily display how your website is seen on different devices. Either in portrait or landscape mode.
+This project will easily display how your website is seen on different devices. Either in portrait or landscape mode. Click an image to see it in full a modal.
 
 The project has a backend API to serve website screenshots and a UI dashboard to select the URL you want to show. For details on each sub-project review included readme.md files.
 
