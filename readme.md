@@ -28,8 +28,8 @@ To make things even easier it can be run in a Docker container. The dockerfile b
 ## Technology Stack
 
 <p float="left">
-<img alt="Puppeteer" src="https://developers.google.com/web/tools/images/puppeteer.png" alt="Puppeteer" width="75" hspace="10"/>
-<img alt="Vue.js" src="https://vuejs.org/images/logo.png" alt="Vue.js" width="110" hspace="10"/>
-<img alt="Bootstrap 4" src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Boostrap_logo.svg" alt="Bootstrap" width="105" hspace="10"/>
-<img alt="Nodejs" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" alt="Nodejs" width="180"  hspace="10"/>
+<img title="Puppeteer" src="https://developers.google.com/web/tools/images/puppeteer.png" alt="Puppeteer" width="75" hspace="10"/>
+<img title="Vue.js" src="https://vuejs.org/images/logo.png" alt="Vue.js" width="110" hspace="10"/>
+<img title="Bootstrap 4" src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Boostrap_logo.svg" alt="Bootstrap" width="105" hspace="10"/>
+<img title="Nodejs" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" alt="Nodejs" width="180"  hspace="10"/>
 </p>
